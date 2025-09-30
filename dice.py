@@ -1,6 +1,6 @@
 import random
 
-# this is just a test edit to see what will happen when I try to push this to github.
+
 def dice_roller():
     while True: 
         try:
