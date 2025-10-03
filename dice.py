@@ -21,13 +21,11 @@ def main():
         try:
             selected_dice = int(input('d: ').strip().lower())
             if selected_dice == 0:
-                raise SyntaxError
+                break
             elif selected_dice not in dice_case:
                 raise ValueError
         except ValueError:
             print('Dice not available')
-        except SyntaxError:
-            break
         else:
             match selected_dice:
                 case 4:
